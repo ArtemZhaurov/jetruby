@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_timeinterval"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView"
+        android:layout_weight="0.08"
+        android:ellipsize="none"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:paddingLeft="8dp" />
+
+    <EditText
+        android:id="@+id/timeValueBox"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:hint="1-60"
+        android:paddingLeft="8dp" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bright_blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/settings_visualeffect"
+        android:id="@+id/textView3"
+        android:layout_weight="0.08"
+        android:ellipsize="none"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:paddingLeft="8dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        style="@style/AppTheme"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/settings_effectslide"
+            android:id="@+id/radioButton1"
+            android:checked="true"
+            android:paddingLeft="8dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/settings_effectfade"
+            android:id="@+id/radioButton2"
+            android:paddingLeft="8dp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bright_blue"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_savesettings"
+        android:onClick="setSetings" />
+
+
+</LinearLayout>

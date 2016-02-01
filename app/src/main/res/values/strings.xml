@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JetRuby Test</string>
+
+    //пункты меню
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Выход</string>
+
+    //окно настроек
+    <string name="settings_timeinterval">Интервал смены изображений (1-60 сек.)</string>
+    <string name="settings_visualeffect">Эффект смены изображений</string>
+    <string name="settings_effectslide">Скольжение</string>
+    <string name="settings_effectfade">Затухание</string>
+    <string name="settings_savesettings">Сохранить</string>
+
+    //главное окно
+    <string name="main_currentdirlabel">Текущая директория:</string>
+    <string name="main_nonselected">не выбрана</string>
+    <string name="main_choosedir">Выбраь директорию с изображениями</string>
+    <string name="main_loadfrominet">Загрузить изображения из Интернета</string>
+    <string name="main_startview">Начать просмотр</string>
+
+    // диалог выбора директории
+    <string name="choosedir_cancel">Отмена</string>
+    <string name="choosedir_confirm">Выбрать</string>
+    <string name="choosedir_currentdirlabel">Текущая директория:</string>
+
+    // заранее определенные URL изображений для загрузки из Интернета
+    <integer name="number_of_urls">5</integer>
+    <string-array name="urls">
+        <item>http://iliketowastemytime.com/sites/default/files/katskhi-pillar-georgia-amos-chapelle-best-drone-photography-iltwmt.jpeg</item>
+        <item>http://iliketowastemytime.com/sites/default/files/budapest-hungary-amos-chapelle-best-drone-photography-iltwmt.jpeg</item>
+        <item>http://iliketowastemytime.com/sites/default/files/paris-sacre-coeur-france-amos-chapelle-best-drone-photography-iltwmt.jpg</item>
+        <item>http://iliketowastemytime.com/sites/default/files/sagrat-cor-church-barcelona-amos-chapelle-best-drone-photography-iltwmt.jpg</item>
+        <item>http://iliketowastemytime.com/sites/default/files/gali-college-amos-chapelle-best-drone-photography-iltwmt.jpeg</item>
+    </string-array>
+
+</resources>
